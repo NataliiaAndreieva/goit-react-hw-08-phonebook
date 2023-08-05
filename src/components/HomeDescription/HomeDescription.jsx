@@ -32,38 +32,4 @@ const HomeDescription = () => {
   );
 };
 
-// import { useSelector } from 'react-redux';
-
-// import { getIsLoggedIn } from 'redux/auth/auth-selectors';
-// import { Section } from 'components/Section/Section';
-// import { Container, Description, Link, Nav } from './HomeDescription.styled';
-
-// const HomeDescription = () => {
-//   const isLoggedIn = useSelector(getIsLoggedIn);
-//   return (
-//     <Container>
-//       <div>
-//         <Section title={'Вітаємо у телефонній книзі'}>
-//           <Description>
-//             Вітаю! Тут ви можете безпечно зберігати свої контакти.
-//           </Description>
-//           {isLoggedIn ? (
-//             <Description>Дякую, що ви з нами!</Description>
-//           ) : (
-//             <>
-//               <Description>
-//                 Щоб почати ви можете зареєструватися або залогінитися!
-//               </Description>
-//               <Nav>
-//                 <Link to="/register">Register</Link>
-//                 <Link to="/login">Log In</Link>
-//               </Nav>
-//             </>
-//           )}
-//         </Section>
-//       </div>
-//     </Container>
-//   );
-// };
-
 export default HomeDescription;

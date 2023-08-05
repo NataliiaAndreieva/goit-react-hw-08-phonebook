@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import persistReducer from 'redux-persist/es/persistReducer';
 import storage from 'redux-persist/lib/storage';
-
 import { logIn, logOut, refreshUser, register } from './operationAuth';
 
 const initialState = {
